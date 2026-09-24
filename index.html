@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restoran Rongawi | Classic Retro Dining</title>
+    <!-- Google Fonts untuk kesan Retro & Pop -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&family=Shrikhand&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Menu Navigasi -->
+    <nav class="navbar">
+      <div class="nav-brand">Rongawi</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#kategori">Kategori</a></li>
+        <li><a href="#cara-pesan">Cara Pesan</a></li>
+        <li><a href="#profil">Daftar Menu</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+      </ul>
+    </nav>
+
+    <!-- Header / Hero Section -->
+    <header class="hero" id="home">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <span class="subtitle">Good Vibes & Great Food</span>
+        <h1>Restoran Rongawi</h1>
+        <p class="intro">
+          Membawa Anda kembali ke masa keemasan kuliner. Nikmati sajian autentik
+          kami dengan suasana nostalgia yang hangat, asyik, dan penuh warna!
+        </p>
+      </div>
+    </header>
+
+    <!-- Container Utama -->
+    <div class="container">
+      <!-- Kategori Menu (Layout Kiri-Kanan) -->
+      <section class="info-section split-layout" id="kategori">
+        <div class="split-text">
+          <h2>Kategori Menu Kami</h2>
+          <p class="section-desc">
+            Pilih hidangan favoritmu dari kategori legendaris kami:
+          </p>
+        </div>
+
+        <div class="split-content">
+          <ul class="category-list">
+            <li>
+              <strong>Makanan Utama</strong>
+              <ul>
+                <li>Nasi Goreng Spesial</li>
+                <li>Mie Goreng Eksklusif</li>
+                <li>Sate Ayam Bumbu Rempah</li>
+                <li>Ayam Bakar Madu Hutan</li>
+              </ul>
+            </li>
+            <li>
+              <strong>Minuman Segar</strong>
+              <ul>
+                <li>Es Teh Manis Aroma Melati</li>
+                <li>Es Jeruk Peras Murni</li>
+              </ul>
+            </li>
+            <li>
+              <strong>Hidangan Penutup</strong>
+              <ul>
+                <li>Crepess</li>
+                <li>Es Krim Vanilla Bean</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Langkah-langkah Pemesanan (Layout Kanan-Kiri / Reverse) -->
+      <section class="info-section split-layout reverse" id="cara-pesan">
+        <div class="split-text">
+          <h2>Cara Memesan</h2>
+          <p class="section-desc">
+            Ikuti langkah mudah ini untuk mulai bernostalgia dengan rasa:
+          </p>
+        </div>
+
+        <div class="split-content">
+          <ol class="steps-list">
+            <li>
+              Pilih meja favoritmu bergaya diner tahun 70-an, atau sapa staf
+              kami yang ramah.
+            </li>
+            <li>
+              Lihat buku menu warna-warni kami, atau scan QR code untuk versi
+              digital.
+            </li>
+            <li>
+              Panggil pramusaji kami, pesananmu akan segera dicatat dengan
+              senyuman.
+            </li>
+            <li>
+              Duduk santai, nikmati musik jukebox selagi koki kami beraksi.
+            </li>
+            <li>
+              Bawa tiket pesananmu ke kasir di depan saat kamu sudah puas
+              bersantap.
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- Bagian Video (Gallery) -->
+      <section class="video-section" id="gallery">
+        <div class="section-header">
+          <h2>Cuplikan Dapur Kami</h2>
+          <p class="section-desc">
+            Mengintip aksi koki kami meracik mahakarya.
+          </p>
+        </div>
+        <div class="video-wrapper">
+          <video controls>
+            <source src="video_menu_resto.mp4" type="video/mp4" />
+            Maaf, browser Anda tidak mendukung pemutaran video.
+          </video>
+        </div>
+      </section>
+
+      <!-- Bagian Daftar Menu -->
+      <section id="profil">
+        <div class="section-header">
+          <h2>Daftar Menu & Harga</h2>
+          <p class="section-desc">Sajian klasik yang tak lekang oleh waktu.</p>
+        </div>
+
+        <ul class="menu-grid">
+          <li class="menu-card">
+            <div class="card-img-wrapper">
+              <img
+                src="https://images.unsplash.com/photo-1603133872878-684f208fb84b?auto=format&fit=crop&w=600&q=80"
+                alt="Nasi Goreng"
+              />
+            </div>
+            <div class="card-body">
+              <h3>Nasi Goreng</h3>
+              <span class="price">Rp25.000</span>
+            </div>
+          </li>
+
+          <li class="menu-card">
+            <div class="card-img-wrapper">
+              <img
+                src="https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?auto=format&fit=crop&w=600&q=80"
+                alt="Mie Goreng"
+              />
+            </div>
+            <div class="card-body">
+              <h3>Mie Goreng</h3>
+              <span class="price">Rp20.000</span>
+            </div>
+          </li>
+
+          <li class="menu-card">
+            <div class="card-img-wrapper">
+              <img
+                src="https://images.unsplash.com/photo-1529563021893-cc83c992d75d?auto=format&fit=crop&w=600&q=80"
+                alt="Sate Ayam"
+              />
+            </div>
+            <div class="card-body">
+              <h3>Sate Ayam</h3>
+              <span class="price">Rp30.000</span>
+            </div>
+          </li>
+
+          <li class="menu-card">
+            <div class="card-img-wrapper">
+              <img
+                src="https://images.unsplash.com/photo-1532550907401-a500c9a57435?auto=format&fit=crop&w=600&q=80"
+                alt="Ayam Bakar"
+              />
+            </div>
+            <div class="card-body">
+              <h3>Ayam Bakar</h3>
+              <span class="price">Rp35.000</span>
+            </div>
+          </li>
+
+          <li class="menu-card">
+            <div class="card-img-wrapper">
+              <img
+                src="https://images.unsplash.com/photo-1556679343-c7306c1976bc?auto=format&fit=crop&w=600&q=80"
+                alt="Es Teh Manis"
+              />
+            </div>
+            <div class="card-body">
+              <h3>Es Teh Manis</h3>
+              <span class="price">Rp8.000</span>
+            </div>
+          </li>
+
+          <li class="menu-card">
+            <div class="card-img-wrapper">
+              <img
+                src="https://images.unsplash.com/photo-1600271886742-f049cd451bba?auto=format&fit=crop&w=600&q=80"
+                alt="Es Jeruk Peras"
+              />
+            </div>
+            <div class="card-body">
+              <h3>Es Jeruk Peras</h3>
+              <span class="price">Rp10.000</span>
+            </div>
+          </li>
+
+          <li class="menu-card">
+            <div class="card-img-wrapper">
+              <img
+                src="https://images.unsplash.com/photo-1587314168485-3236d6710814?auto=format&fit=crop&w=600&q=80"
+                alt="Pisang Goreng"
+              />
+            </div>
+            <div class="card-body">
+              <h3>Crepess</h3>
+              <span class="price">Rp15.000</span>
+            </div>
+          </li>
+
+          <li class="menu-card">
+            <div class="card-img-wrapper">
+              <img
+                src="https://images.unsplash.com/photo-1557142046-c704a3adf364?auto=format&fit=crop&w=600&q=80"
+                alt="Es Krim"
+              />
+            </div>
+            <div class="card-body">
+              <h3>Es Krim Vanilla</h3>
+              <span class="price">Rp15.000</span>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </div>
+
+    <!-- Footer / Kontak -->
+    <footer id="kontak">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <h2>Restoran Rongawi</h2>
+          <p>Jl. Merdeka No. 10, Jakarta, Indonesia</p>
+        </div>
+        <div class="footer-meta">
+          <p class="copyright">&copy; 2026 Restoran Rongawi.</p>
+          <p>Good Food, Good Times.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
